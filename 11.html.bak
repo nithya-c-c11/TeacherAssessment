@@ -1,0 +1,35 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" onclick="loadYear(1)">1st Year</a></li>
+            <li><a href="#" onclick="loadYear(2)">2nd Year</a></li>
+            <li><a href="#" onclick="loadYear(3)">3rd Year</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Course Selection System</h1>
+        
+        <section id="course-selection">
+            <h2>Select Courses</h2>
+            <ul id="courseList"></ul>
+            <button onclick="submitSelections()">Submit Selections</button>
+        </section>
+
+        <section id="teacher-profiles">
+            <h2>Teacher Profiles</h2>
+            <ul id="teacherList"></ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

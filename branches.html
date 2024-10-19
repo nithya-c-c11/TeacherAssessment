@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Anchor Tags</title>
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .image-container a {
+            display: block;
+            width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Adjust the size as needed */
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Image Links</h1>
+<div class="image-container">
+    <a href="year.html" target="_blank">
+        <img src="cse.jpg" alt="Image 1">
+    </a>
+    <a href="1ece.html" target="_blank">
+        <img src="ece.jpg" alt="Image 2">
+    </a>
+    <a href="1civil.html" target="_blank">
+        <img src="civil.jpg" alt="Image 3">
+    </a>
+    <a href="1eee.html" target="_blank">
+        <img src="eee.jpg" alt="Image 4">
+    </a>
+	<a href="1mech.html" target="_blank">
+        <img src="mech.jpg" alt="Image 4">
+    </a>
+
+</div>
+
+
+</body>
+</html>

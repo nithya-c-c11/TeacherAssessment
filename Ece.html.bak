@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection</title>
+		 <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+	    <div class="course-selection">
+        <h2>First Year Courses</h2>
+        <h3>Theory Courses</h3>
+        <ul id="ece-first-year-theory-list"></ul>
+        <h3>Lab Courses</h3>
+        <ul id="ece-first-year-lab-list"></ul>
+        <button id="submit-first-year-btn">Submit First Year</button>
+        <!--
+        <h2>Second Year Courses</h2>
+        <h3>Theory Courses</h3>
+        <ul id="ece-second-year-theory-list"></ul>
+        <h3>Lab Courses</h3>
+        <ul id="ece-second-year-lab-list"></ul>
+        <button id="submit-second-year-btn">Submit Second Year</button>
+        
+        <h2>Third Year Courses</h2>
+        <h3>Theory Courses</h3>
+        <ul id="ece-third-year-theory-list"></ul>
+        <h3>Lab Courses</h3>
+        <ul id="ece-third-year-lab-list"></ul>
+        <button id="submit-third-year-btn">Submit Third Year</button>
+        
+        <h2>Selected Courses</h2>
+        <ul id="selected-courses"></ul>
+        <div id="message"></div>-->
+    </div>
+    </div>
+    <script src="ece.js"></script>
+</body>
+</html>
